@@ -17,3 +17,8 @@ The wizard will lead you through the installation of the application.
 ### MacOS
 Download the pre packed SlideDemo.zip and place it anywhere on your system.<br />
 You can run the application by executing the *SlideDemo* file.
+
+
+## Known Issues
+It seems that fullscreen isn't working properly on some MacOS devices,<br />
+which is (unfortunately) the only screen mode the app runs in at the moment.
