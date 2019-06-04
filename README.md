@@ -14,6 +14,6 @@ it might be a good idea to put it up here as example of how Mgx might be used.</
 Download the *SlideDemoSetup.exe* and execute it.<br />
 The wizard will lead you through the installation of the application.
 
-### MacOs
+### MacOS
 Download the pre packed SlideDemo.zip and place it anywhere on your system.<br />
 You can run the application by executing the *SlideDemo* file.
