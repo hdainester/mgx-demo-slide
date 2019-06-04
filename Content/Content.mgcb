@@ -1,0 +1,95 @@
+
+#----------------------------- Global Properties ----------------------------#
+
+/outputDir:bin/$(Platform)
+/intermediateDir:obj/$(Platform)
+/platform:DesktopGL
+/config:
+/profile:Reach
+/compress:False
+
+#-------------------------------- References --------------------------------#
+
+/reference:..\libs\mgx.dll
+/reference:..\libs\mgx_pipe.dll
+
+#---------------------------------- Content ---------------------------------#
+
+#begin fonts/content_bold.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:fonts/content_bold.spritefont
+
+#begin fonts/content_italic.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:fonts/content_italic.spritefont
+
+#begin layout/fdp_troll.mgxml
+/importer:ComponentImporter
+/processor:PassThroughProcessor
+/build:layout/fdp_troll.mgxml
+
+#begin layout/stp_home.mgxml
+/importer:ComponentImporter
+/processor:PassThroughProcessor
+/build:layout/stp_home.mgxml
+
+#begin layout/stp_story.mgxml
+/importer:ComponentImporter
+/processor:PassThroughProcessor
+/build:layout/stp_story.mgxml
+
+#begin layout/templates/gdp_simple.mgxml
+/importer:ComponentImporter
+/processor:PassThroughProcessor
+/build:layout/templates/gdp_simple.mgxml
+
+#begin layout/templates/mni_quit.mgxml
+/importer:ComponentImporter
+/processor:PassThroughProcessor
+/build:layout/templates/mni_quit.mgxml
+
+#begin layout/templates/slp_exp.mgxml
+/importer:ComponentImporter
+/processor:PassThroughProcessor
+/build:layout/templates/slp_exp.mgxml
+
+#begin layout/templates/slp_lin.mgxml
+/importer:ComponentImporter
+/processor:PassThroughProcessor
+/build:layout/templates/slp_lin.mgxml
+
+#begin layout/templates/slp_log.mgxml
+/importer:ComponentImporter
+/processor:PassThroughProcessor
+/build:layout/templates/slp_log.mgxml
+
+#begin textures/blank.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:textures/blank.png
+
+#begin textures/trollface.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:textures/trollface.png
+

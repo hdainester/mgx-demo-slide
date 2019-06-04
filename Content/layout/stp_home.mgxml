@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:ns="Chaotx.Mgx.Layout">
+    <Asset Type="Chaotx.Mgx.Layout.StackPane">
+        <HGrow>1</HGrow><VGrow>1</VGrow>
+
+        <Component Template="layout/fdp_troll" />
+        <Component Template="layout/stp_story" />
+
+        <Component Type="Chaotx.Mgx.Layout.GridPane">
+            <HAlign>Center</HAlign>
+            <VAlign>Center</VAlign>
+            <HGrow>0.75</HGrow>
+            <VGrow>0.75</VGrow>
+
+            <Row>
+                <Component Template="layout/templates/slp_lin" Id="slp00">
+                    <HGrow>1</HGrow><VGrow>1</VGrow>
+                    <GenericStart>TopLeft</GenericStart>
+                    <InitialState>SlidingIn</InitialState>
+                    <Component Template="layout/templates/gdp_simple" />
+                </Component>
+                <Component Template="layout/templates/slp_lin" Id="slp10">
+                    <HGrow>1</HGrow><VGrow>1</VGrow>
+                    <GenericStart>TopRight</GenericStart>
+                    <Component Template="layout/templates/gdp_simple" />
+                </Component>
+            </Row>
+            <Row>
+                <Component Template="layout/templates/slp_lin" Id="slp01">
+                    <HGrow>1</HGrow><VGrow>1</VGrow>
+                    <GenericStart>BottomLeft</GenericStart>
+                    <Component Template="layout/templates/gdp_simple" />
+                </Component>
+                <Component Template="layout/templates/slp_lin" Id="slp11">
+                    <HGrow>1</HGrow><VGrow>1</VGrow>
+                    <GenericStart>BottomRight</GenericStart>
+                    <Component Template="layout/templates/gdp_simple" />
+                </Component>
+            </Row>
+        </Component>
+    </Asset>
+</XnaContent>

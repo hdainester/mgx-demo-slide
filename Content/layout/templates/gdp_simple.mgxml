@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:ns="Chaotx.Mgx.Layout">
+    <Asset Type="Chaotx.Mgx.Layout.GridPane" Id="gdp">
+        <HGrow>1</HGrow><VGrow>1</VGrow>
+    </Asset>
+</XnaContent>

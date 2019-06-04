@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:ns="Chaotx.Mgx.Layout">
+    <Asset Type="Chaotx.Mgx.Layout.FadingPane" Id="fdpTroll">
+        <HGrow>0.75</HGrow>
+        <VGrow>0.75</VGrow>
+        <HAlign>Center</HAlign>
+        <VAlign>Center</VAlign>
+        <LifeSpan>0</LifeSpan>
+        <FadeInTime>3000</FadeInTime>
+        <FadeOutTime>3000</FadeOutTime>
+        <InitialState>FadedOut</InitialState>
+
+        <Component Type="Chaotx.Mgx.Controls.ImageItem">
+            <HGrow>1</HGrow><VGrow>1</VGrow>
+            <HAlign>Center</HAlign>
+            <VAlign>Center</VAlign>
+            <Image>textures/trollface</Image>
+            <KeepAspectRatio>true</KeepAspectRatio>
+        </Component>
+    </Asset>
+</XnaContent>

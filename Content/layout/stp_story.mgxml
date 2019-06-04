@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:ns="Chaotx.Mgx.Layout">
+    <Asset Type="Chaotx.Mgx.Layout.StackPane" Id="stpStory">
+        <HGrow>1</HGrow><VGrow>1</VGrow>
+
+        <Component Template="layout/templates/slp_log" Id="slpQuit">
+            <TravelMode>Logarithmic</TravelMode>
+            <TravelTime>4000</TravelTime>
+            <Component Template="layout/templates/mni_quit" />
+        </Component>
+
+        <Component Template="layout/templates/slp_exp" Id="slpText0">
+            <TravelTime>3000</TravelTime>
+            <Component Type="Chaotx.Mgx.Controls.TextItem">
+                <Font>fonts/content_italic</Font>
+                <Text>Once up on a time</Text>
+            </Component>
+        </Component>
+
+        <Component Template="layout/templates/slp_exp" Id="slpText1">
+            <TravelTime>3000</TravelTime>
+            <Component Type="Chaotx.Mgx.Controls.TextItem">
+                <Font>fonts/content_italic</Font>
+                <Text>There was an ugly user interface</Text>
+            </Component>
+        </Component>
+
+        <Component Template="layout/templates/slp_exp" Id="slpText2">
+            <TravelTime>3000</TravelTime>
+            <Component Type="Chaotx.Mgx.Controls.TextItem">
+                <Font>fonts/content_italic</Font>
+                <Text>But behold...</Text>
+            </Component>
+        </Component>
+
+        <Component Template="layout/templates/slp_exp" Id="slpText3">
+            <TravelTime>3000</TravelTime>
+            <Component Type="Chaotx.Mgx.Controls.TextItem">
+                <Font>fonts/content_italic</Font>
+                <Text>A wild SlidingPane appeared!</Text>
+            </Component>
+        </Component>
+    </Asset>
+</XnaContent>

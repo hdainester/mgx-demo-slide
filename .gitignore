@@ -1,0 +1,10 @@
+## vscode
+.vscode
+
+## out
+bin
+obj
+
+## proj
+makefile
+set

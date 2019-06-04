@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XnaContent Type="Chaotx.Mgx.Layout">
+    <Asset Type="Chaotx.Mgx.Layout.SlidingPane" Id="slpLog">
+        <InitialState>SlidedOut</InitialState>
+        <TravelMode>Logarithmic</TravelMode>
+        <GenericStart>Bottom</GenericStart>
+        <HAlign>Center</HAlign>
+        <VAlign>Center</VAlign>
+    </Asset>
+</XnaContent>
